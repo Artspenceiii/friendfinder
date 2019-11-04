@@ -1,79 +1,129 @@
-// ===============================================================================
-// DATA
-// Below data will hold all friends.
-// Initially its just set it to one friend.
-// ===============================================================================
+var friends = [
+    {
+        name:"Pal",
+        type:"dog",
+        age:0.5,
+        photo:"https://vignette.wikia.nocookie.net/arthur/images/f/fa/Pal.png/revision/latest?cb=20180208053507",
+        scores:[
+            5,
+            1,
+            5,
+            5,
+            1,
+            1,
+            4,
+            2,
+            1,
+            2,
+            4,
+            3
+        ]
+   },
+   {
+        name:"Killer",
+        type:"dog",
+        age:7,
+        photo:"https://vignette.wikia.nocookie.net/arthur/images/9/9a/Thora%27s_dog_s9.png/revision/latest/scale-to-width-down/250?cb=20150118182758",
+        scores:[
+            2,
+            5,
+            3,
+            2,
+            4,
+            1,
+            5,
+            1,
+            3,
+            3,
+            4,
+            1      
+        ]
+    },
+    {
+        name:"Amigo",
+        type:"dog",
+        age:3,
+        photo:"https://vignette.wikia.nocookie.net/arthur/images/3/38/Amigo.png/revision/latest/scale-to-width-down/250?cb=20141220092906",
+        scores:[
+            3,
+            5,
+            2,
+            3,
+            4,
+            5,
+            4,
+            5,
+            4,
+            5,
+            3,
+            5 
+        ]
+    },
+    {
+        name:"Pixel",
+        type:"dog",
+        age:9,
+        photo:"https://vignette.wikia.nocookie.net/arthur/images/2/21/Pixel.png/revision/latest/scale-to-width-down/250?cb=20160920015102",
+        scores:[
+            1,
+            5,
+            2,
+            1,
+            5,
+            4,
+            2,
+            1,
+            5,
+            1,
+            1,
+            5
 
-var friendsArray = [
-	{
-	  "name":"Leonardo DiCaprio",
-	  "photo":"http://images.forbes.com/media/2010/12/16/1216_leonardo-dicaprio-high-earning_485x340.jpg",
-	  "sex":"male",
-	  "scores":[
-	     5,
-	     1,
-	     4,
-	     4,
-	     5,
-	     1,
-	     2,
-	     5,
-	     4,
-	     1
-	   ]
-	},
-	{
-	  "name":"Kristin Stewart",
-	  "photo":"http://images.forbes.com/media/2010/12/16/1216_kristin-stewart-high-earning_485x340.jpg",
-	  "sex":"female",
-	  "scores":[
-	     1,
-	     2,
-	     5,
-	     5,
-	     1,
-	     2,
-	     3,
-	     1,
-	     5,
-	     2
-	   ]
-	},
-	{
-	  "name":"Mia Wasikowska",
-	  "photo":"http://images.forbes.com/media/2010/12/16/1216_mia-wasikowska-high-earning_485x340.jpg",
-	  "sex":"female",
-	  "scores":[
-	     4,
-	     5,
-	     3,
-	     3,
-	     4,
-	     5,
-	     1,
-	     4,
-	     3,
-	     5
-	   ]
-	},
-	{
-	  "name":"Johnny Depp",
-	  "photo":"http://images.forbes.com/media/2010/12/16/1216_johnny-depp-high-earning_485x340.jpg",
-	  "sex":"male",
-	  "scores":[
-	     2,
-	     3,
-	     1,
-	     1,
-	     2,
-	     3,
-	     4,
-	     2,
-	     1,
-	     3
-	   ]
-	}
+        ]
+    },
+    {
+        name:"Fur Elise",
+        type:"cat",
+        age:1,
+        photo:"https://vignette.wikia.nocookie.net/arthur/images/f/fa/Furry.png/revision/latest/scale-to-width-down/250?cb=20120916204601",
+        scores:[
+            3,
+            4,
+            3,
+            4,
+            4,
+            2,
+            4,
+            2,
+            4,
+            2,
+            1,
+            5 
+        ]
+    },
+    {
+        name:"Nemo",
+        type:"cat",
+        age:3,
+        photo:"https://vignette.wikia.nocookie.net/arthur/images/a/a1/Nemo_Pets_and_Pests_2.png/revision/latest/scale-to-width-down/250?cb=20141206161749",
+        scores:[
+            1,
+            3,
+            1,
+            1,
+            2,
+            1,
+            2,
+            1,
+            4,
+            2,
+            1,
+            1 
+        ]
+    },
+   
+    
+
 ];
 
-// Set up table to be accessible to other files using require.
-module.exports = friendsArray;
+
+    module.exports = friends;

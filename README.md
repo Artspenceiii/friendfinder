@@ -1,5 +1,17 @@
-# Friend-Finder
+# Furrever Friend Finder!
 
-### Overview
+## Project Overview
 
- In this activity, you'll build a compatibility-based "FriendFinder" application -- basically a dating app. This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match. You will use Express to handle routing. Make sure you deploy your app to Heroku so other users can fill it out.
+The Furrever Friend Finder is a compatibility-based pet finder. The application simulates a real world need of finding the best pet for you to adopt based on your lifestyle. Get started by going to the survey, answer the questions ranked from 1 to 5 based on your agreement, and you'll be matched with the pest pet currently available for adoption!
+
+## Usage
+
+Click [here](https://immense-ridge-16573.herokuapp.com/) to visit the deployed app.
+
+To run on your machine:
+
+```
+git clone https://github.com/brittani1128/friend-finder
+cd friend-finder
+npm install
+```
